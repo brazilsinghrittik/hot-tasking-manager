@@ -1,0 +1,9 @@
+<map id="backend.exceptions.BaseException" name="backend.exceptions.BaseException">
+<area shape="rect" id="node1" title=" " alt="" coords="477,131,727,267"/>
+<area shape="rect" id="node3" href="$classbackend_1_1exceptions_1_1BadRequest.html" title=" " alt="" coords="5,315,239,392"/>
+<area shape="rect" id="node4" href="$classbackend_1_1exceptions_1_1Conflict.html" title=" " alt="" coords="263,315,469,392"/>
+<area shape="rect" id="node5" href="$classbackend_1_1exceptions_1_1Forbidden.html" title=" " alt="" coords="493,315,711,392"/>
+<area shape="rect" id="node6" href="$classbackend_1_1exceptions_1_1NotFound.html" title=" " alt="" coords="736,315,953,392"/>
+<area shape="rect" id="node7" href="$classbackend_1_1exceptions_1_1Unauthorized.html" title=" " alt="" coords="978,315,1221,392"/>
+<area shape="rect" id="node2" title=" " alt="" coords="542,5,662,83"/>
+</map>

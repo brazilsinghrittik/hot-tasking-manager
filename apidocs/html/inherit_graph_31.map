@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,373,132,399"/>
+<area shape="rect" id="node2" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__Area.html" title=" " alt="" coords="196,5,411,47"/>
+<area shape="rect" id="node3" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__AsGeoJSON.html" title=" " alt="" coords="196,71,411,112"/>
+<area shape="rect" id="node4" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__Buffer.html" title=" " alt="" coords="196,136,411,177"/>
+<area shape="rect" id="node5" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__Centroid.html" title=" " alt="" coords="196,201,411,243"/>
+<area shape="rect" id="node6" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__GeogFromWKB.html" title=" " alt="" coords="196,267,411,308"/>
+<area shape="rect" id="node7" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__GeomFromGeoJSON.html" title=" " alt="" coords="196,332,411,373"/>
+<area shape="rect" id="node8" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__Intersects.html" title=" " alt="" coords="196,397,411,439"/>
+<area shape="rect" id="node9" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__MakeEnvelope.html" title=" " alt="" coords="196,463,411,504"/>
+<area shape="rect" id="node10" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__SetSRID.html" title=" " alt="" coords="196,528,411,569"/>
+<area shape="rect" id="node11" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__Transform.html" title=" " alt="" coords="196,593,411,635"/>
+<area shape="rect" id="node12" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__X.html" title=" " alt="" coords="180,659,427,686"/>
+<area shape="rect" id="node13" href="$classbackend_1_1models_1_1postgis_1_1utils_1_1ST__Y.html" title=" " alt="" coords="180,710,427,737"/>
+</map>

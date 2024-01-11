@@ -1,0 +1,15 @@
+<map id="backend.models.postgis.custom_editors.CustomEditor.update_editor" name="backend.models.postgis.custom_editors.CustomEditor.update_editor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,365,265,407"/>
+<area shape="rect" id="node2" href="$classbackend_1_1models_1_1postgis_1_1application_1_1Application.html#ab7a490ec4f2967dfe77d634ad73c382b" title=" " alt="" coords="318,5,577,47"/>
+<area shape="rect" id="node3" href="$classbackend_1_1models_1_1postgis_1_1campaign_1_1Campaign.html#ade52f0f8ab25e91af6d67524daf9ede6" title=" " alt="" coords="322,71,573,112"/>
+<area shape="rect" id="node4" href="$classbackend_1_1models_1_1postgis_1_1custom__editors_1_1CustomEditor.html#a4603741ca6fc21f7426c5d39db52d1d8" title=" " alt="" coords="332,136,563,177"/>
+<area shape="rect" id="node5" href="$classbackend_1_1models_1_1postgis_1_1interests_1_1Interest.html#a5c3df5ea0adf98a66ac6ba05410b4623" title=" " alt="" coords="325,201,569,243"/>
+<area shape="rect" id="node6" href="$classbackend_1_1models_1_1postgis_1_1message_1_1Message.html#aac80d796cfb146e49f1f2fef69414458" title=" " alt="" coords="324,267,571,308"/>
+<area shape="rect" id="node7" href="$classbackend_1_1models_1_1postgis_1_1notification_1_1Notification.html#a43309aeb9804215529d7fd2a0db8a492" title=" " alt="" coords="317,332,578,373"/>
+<area shape="rect" id="node8" href="$classbackend_1_1models_1_1postgis_1_1organisation_1_1Organisation.html#a5b7c4a0b4f60ef80d6a14ec48d685929" title=" " alt="" coords="313,397,581,439"/>
+<area shape="rect" id="node9" href="$classbackend_1_1models_1_1postgis_1_1project_1_1ProjectTeams.html#ac05937b8c79cf9d509c0fcdb958c53f7" title=" " alt="" coords="331,463,563,504"/>
+<area shape="rect" id="node10" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a490a0a3668f7dc2f70b13b2a25ded7cc" title=" " alt="" coords="331,528,563,569"/>
+<area shape="rect" id="node11" href="$classbackend_1_1models_1_1postgis_1_1release__version_1_1ReleaseVersion.html#a28979de3374cf29b5205b039799e0d52" title=" " alt="" coords="332,593,563,635"/>
+<area shape="rect" id="node12" href="$classbackend_1_1models_1_1postgis_1_1user_1_1User.html#a3eb56b2c90b913096029f5d414cffcaf" title=" " alt="" coords="340,659,555,700"/>
+<area shape="rect" id="node13" href="$classbackend_1_1models_1_1postgis_1_1user_1_1UserEmail.html#a50616abc698eed499795565fcaf7c61d" title=" " alt="" coords="340,724,555,765"/>
+</map>
