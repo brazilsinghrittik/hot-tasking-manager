@@ -13,14 +13,14 @@
         <link rel="canonical" href="https://www.hotosm.org/sysadmins/deployment/">
       
       
-        <link rel="prev" href="../../developers/versions-and-releases/">
+        <link rel="prev" href="../migration/">
       
       
-        <link rel="next" href="../ci-cd/">
+        <link rel="next" href="../customize/">
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.10">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4b4a2bd9.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
@@ -356,6 +356,86 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/review-pr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reviewing PRs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/submit-pr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Submitting a PR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/tmschema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Schema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/translations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Translations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -400,6 +480,147 @@
             For Sysadmins
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Deployment
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Deployment
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Page contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Page contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-to-aws" class="md-nav__link">
+    Deploying to AWS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performing-updates" class="md-nav__link">
+    Performing Updates
+  </a>
+  
+    <nav class="md-nav" aria-label="Performing Updates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backup-database" class="md-nav__link">
+    Backup Database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-backend-infrastructure" class="md-nav__link">
+    Update backend infrastructure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-code-to-production" class="md-nav__link">
+    Deploy Code to Production
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../migration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Migration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -456,18 +677,14 @@
       
         <li class="md-nav__item">
   <a href="#deploying-to-aws" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deploying to AWS
-    </span>
+    Deploying to AWS
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#performing-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performing Updates
-    </span>
+    Performing Updates
   </a>
   
     <nav class="md-nav" aria-label="Performing Updates">
@@ -475,27 +692,21 @@
         
           <li class="md-nav__item">
   <a href="#backup-database" class="md-nav__link">
-    <span class="md-ellipsis">
-      Backup Database
-    </span>
+    Backup Database
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#update-backend-infrastructure" class="md-nav__link">
-    <span class="md-ellipsis">
-      Update backend infrastructure
-    </span>
+    Update backend infrastructure
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#deploy-code-to-production" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deploy Code to Production
-    </span>
+    Deploy Code to Production
   </a>
   
 </li>
@@ -509,6 +720,26 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customize/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customize
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -534,26 +765,6 @@
 
               
             
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../architecture/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Architecture
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -567,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../apidocs/html/" class="md-nav__link">
+      <a href="../../apidocs/html/index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -629,18 +840,14 @@
       
         <li class="md-nav__item">
   <a href="#deploying-to-aws" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deploying to AWS
-    </span>
+    Deploying to AWS
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#performing-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performing Updates
-    </span>
+    Performing Updates
   </a>
   
     <nav class="md-nav" aria-label="Performing Updates">
@@ -648,27 +855,21 @@
         
           <li class="md-nav__item">
   <a href="#backup-database" class="md-nav__link">
-    <span class="md-ellipsis">
-      Backup Database
-    </span>
+    Backup Database
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#update-backend-infrastructure" class="md-nav__link">
-    <span class="md-ellipsis">
-      Update backend infrastructure
-    </span>
+    Update backend infrastructure
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#deploy-code-to-production" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deploy Code to Production
-    </span>
+    Deploy Code to Production
   </a>
   
 </li>
@@ -822,7 +1023,7 @@ git push origin deployment/hot-tasking-manager
     <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.6c14ae12.min.js"></script>
+      <script src="../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
     
   </body>

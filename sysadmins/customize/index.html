@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://www.hotosm.org/sysadmins/architecture/">
+        <link rel="canonical" href="https://www.hotosm.org/sysadmins/customize/">
       
       
         <link rel="prev" href="../deployment/">
       
       
-        <link rel="next" href="../migration/">
+        <link rel="next" href="../ci-cd/">
       
       
       <link rel="icon" href="../../images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Architecture - tasking-manager</title>
+        <title>Customize - tasking-manager</title>
       
     
     
@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#architecture" class="md-skip">
+        <a href="#customize-your-tasking-manager" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Architecture
+              Customize
             
           </span>
         </div>
@@ -505,29 +505,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Architecture
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../architecture/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -536,35 +516,6 @@
   
 
       </a>
-      
-        
-
-  
-
-<nav class="md-nav md-nav--secondary" aria-label="Page contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Page contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#parameters" class="md-nav__link">
-    Parameters
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -614,9 +565,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../customize/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Customize
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -625,6 +596,49 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Page contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Page contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#css" class="md-nav__link">
+    CSS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-site-url-hashtags-contact" class="md-nav__link">
+    Configuration (site URL, hashtags, contact)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -724,8 +738,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#parameters" class="md-nav__link">
-    Parameters
+  <a href="#css" class="md-nav__link">
+    CSS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-site-url-hashtags-contact" class="md-nav__link">
+    Configuration (site URL, hashtags, contact)
   </a>
   
 </li>
@@ -748,64 +776,14 @@
   
 
 
-<h1 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h1>
-<p><img alt="TM Architecture" src="../../images/tm-architecture.svg" /></p>
-<p>Reference for the <a href="../scripts/aws/cloudformation/tasking-manager.template.js">Cloudformation script</a>:</p>
-<p><strong>TaskingManagerASG</strong> AutoScalingGroup configures the properties of the Autoscaling Group. There is a condition that determines three levels of autoscaling: development (1 instance only), demo (max 3 instances), and production (min 2 max 6 instances).</p>
-<p><strong>TaskingManagerScaleUp</strong> Scaling Policy determines the threshold at which the ASG scales up. We use the CloudWatch metric ALBRequestCountPerTarget to keep the number of requests per instance below a certain level.</p>
-<p><strong>TaskingManagerLaunchConfiguration</strong> has a number of metadata files and commands which are loaded and run during instantiation of a new server into the ASG. The Tasking Manager environment variables are set in this resource.</p>
-<p><strong>TaskingManagerEC2Role</strong> IAM role enables the backend servers to communicate with CodeDeploy, CloudWatch monitoring, Cloudformation, and the RDS Database.</p>
-<p><strong>TaskingManagerDatabaseDumpAccessRole</strong> is an EC2 IAM Role that is only used if a database dump file is given in the configuration, enabling access to the s3 bucket containing that file.</p>
-<p><strong>TaskingManagerEC2InstanceProfile</strong> is a required resource for giving a server programmatic access to AWS services.</p>
-<p><strong>TaskingManagerLoadBalancer</strong> configures the security groups and subnets for the Application Load Balancer AWS resource.</p>
-<p><strong>TaskingManagerLoadBalancerRoute53</strong> record set for the load balancer.</p>
-<p><strong>TaskingManagerTargetGroup</strong> configures health checks for each target in the Load Balancer.</p>
-<p><strong>TaskingManagerLoadBalancerHTTPSListener</strong> assigns the SSL Certificate, protocol, and port to the HTTPS Listener.</p>
-<p><strong>TaskingManagerLoadBalancerHTTPListener</strong> redirects requests to HTTPS.</p>
-<p><strong>TaskingManagerRDS</strong> configures all the properties of the database RDS.</p>
-<p><strong>TaskingManagerReactBucket</strong> is the bucket where the frontend code is stored and served.</p>
-<p><strong>TaskingManagerReactBucketPolicy</strong> gives read access to the objects stored in the bucket.</p>
-<p><strong>TaskingManagerReactCloudfront</strong> configures the CloudFront Distribution for the static frontend stored on S3.</p>
-<p><strong>TaskingManagerRoute53</strong> is the Route53 Record for the frontend, i.e. <code>tasks.hotosm.org</code></p>
-<h3 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h3>
-<p><strong>GitSha</strong> is the commit hash from the HOTOSM Tasking Manager repository to be deployed</p>
-<p><strong>NetworkEnvironment</strong> has only two options- <code>staging</code> and <code>production</code>, and determines the security groups used for the EC2s and Load Balancer.</p>
-<p><strong>AutoscalingPolicy</strong> can be <code>development</code>, <code>demo</code>, or <code>production</code> and determines the min/max number of instances</p>
-<p><strong>DBSnapshot</strong> is an optional parameter. Specify the RDS Snapshot ID to create the database from a snapshot</p>
-<p><strong>DatabaseDump</strong> is an optional parameter. Specify the s3 bucket object path to create the database from a plaintext dump file.</p>
-<p><strong>NewRelicLicense</strong></p>
-<p><strong>PostgresDB</strong> is the name of the database</p>
-<p><strong>PostgresPassword</strong> is the database password</p>
-<p><strong>PostgresUser</strong> is the database user</p>
-<p><strong>DatabaseEngineVersion</strong> AWS PostgreSQL Engine version</p>
-<p><strong>DatabaseInstanceType</strong> is the AWS database instance tier (eg db.t3.large)</p>
-<p><strong>DatabaseDiskSize</strong> is the size (in GB) of the RDS instance. Recommended at least 100GB for better IOPS</p>
-<p><strong>DatabaseParameterGroupName</strong> use the default parameter group if you don't know what this is</p>
-<p><strong>DatabaseSnapshotRetentionPeriod</strong> Retention period for automatic (scheduled) snapshots in days</p>
-<p><strong>ELBSubnets</strong> is a comma-separated string of subnets for your AWS region. Make sure the subnets support the EC2 instance type.</p>
-<p><strong>SSLCertificateIdentifier</strong> the ID for the AWS SSL Certificate</p>
-<p><strong>TaskingManagerLogDirectory</strong> the path on the instance where the logs are stored on the server, e.g. <code>/var/log/tasking-manager/</code></p>
-<p><strong>TaskingManagerClientId</strong> is a key generated by creating and OSM OAuth Client Application.</p>
-<p><strong>TaskingManagerClientSecret</strong> is a secret key generated by creating and OSM OAuth Client Application.</p>
-<p><strong>TaskingManagerRedirectUri</strong> allowed URIs to which the user can be redirected after authorizing the application.</p>
-<p><strong>TaskingManagerScope</strong> are scope(s) which may be requested by a client.</p>
-<p><strong>TaskingManagerSecret</strong> a random string for the frontend and backend to communicate.</p>
-<p><strong>TaskingManagerAppBaseUrl</strong> the full base url of the site, e.g. <code>https://tasks.hotosm.org/</code></p>
-<p><strong>TaskingManagerEmailFromAddress</strong> an email address from which messages will be sent to users.</p>
-<p><strong>TaskingManagerEmailContactAddress</strong> a contact address which will show up in places around the site</p>
-<p><strong>TaskingManagerLogLevel</strong> can be either <code>DEBUG</code> or <code>INFO</code></p>
-<p><strong>TaskingManagerImageUploadAPIURL</strong></p>
-<p><strong>TaskingManagerImageUploadAPIKey</strong></p>
-<p><strong>TaskingManagerSMTPHost</strong> the host url for the AWS Simple Email Service</p>
-<p><strong>TaskingManagerSMTPPassword</strong> the authentication password for AWS SES</p>
-<p><strong>TaskingManagerSMTPUser</strong> the authentication user for AWS SES</p>
-<p><strong>TaskingManagerSMTPPort</strong> the port for AWS SES</p>
-<p><strong>TaskingManagerDefaultChangesetComment</strong> the project default comment hashtag</p>
-<p><strong>TaskingManagerURL</strong> the url without the protocol- e.g. <code>tasks.hotosm.org</code></p>
-<p><strong>TaskingManagerOrgName</strong> Name of the app/org hosting the app</p>
-<p><strong>TaskingManagerOrgCode</strong> 3 letter code for the org name</p>
-<p><strong>SentryBackendDSN</strong> If using sentry, input DSN url here</p>
-<p><strong>TaskingManagerLogo</strong> URL for a logo</p>
+<h1 id="customize-your-tasking-manager">Customize your Tasking Manager<a class="headerlink" href="#customize-your-tasking-manager" title="Permanent link">&para;</a></h1>
+<p>This guide intends to walk you through the process of customizing the Tasking Manager for your own use.</p>
+<h2 id="css">CSS<a class="headerlink" href="#css" title="Permanent link">&para;</a></h2>
+<p>The frontend site CSS is built from the files at https://github.com/hotosm/tasking-manager/tree/develop/frontend/src/assets/styles.</p>
+<h2 id="images">Images<a class="headerlink" href="#images" title="Permanent link">&para;</a></h2>
+<p>Logos are stored at https://github.com/hotosm/tasking-manager/tree/develop/frontend/src/assets/img for the site frontend.</p>
+<h2 id="configuration-site-url-hashtags-contact">Configuration (site URL, hashtags, contact)<a class="headerlink" href="#configuration-site-url-hashtags-contact" title="Permanent link">&para;</a></h2>
+<p>Most of the site configuration, such as the URL of the site, default changeset hashtags, and contact email addresses, are found in https://github.com/hotosm/tasking-manager/blob/develop/backend/config.py.</p>
 
 
 
