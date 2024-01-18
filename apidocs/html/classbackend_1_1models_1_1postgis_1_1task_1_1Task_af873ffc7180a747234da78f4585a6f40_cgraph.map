@@ -1,0 +1,35 @@
+<map id="backend.models.postgis.task.Task.set_task_history" name="backend.models.postgis.task.Task.set_task_history">
+<area shape="rect" id="node1" title=" " alt="" coords="5,463,201,504"/>
+<area shape="rect" id="node2" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#a0f0ddffb4741fad43d1204e48cc07ba0" title=" " alt="" coords="272,5,468,47"/>
+<area shape="rect" id="node3" href="$classbackend_1_1services_1_1notification__service_1_1NotificationService.html#a0a0613f69f1bc07ab761524e99864aaf" title=" " alt="" coords="256,71,484,112"/>
+<area shape="rect" id="node4" href="$classbackend_1_1services_1_1interests__service_1_1InterestService.html#a448f3ddc5b8c995dfcd9f03cb2d0869a" title=" " alt="" coords="267,136,473,177"/>
+<area shape="rect" id="node5" href="$classbackend_1_1models_1_1postgis_1_1banner_1_1Banner.html#ac1667dd7841264f81d420e4ebe355da5" title=" " alt="" coords="265,201,475,243"/>
+<area shape="rect" id="node6" href="$classbackend_1_1models_1_1postgis_1_1notification_1_1Notification.html#a3bae7e71a8a90dadc192ca6b0c45cb5f" title=" " alt="" coords="253,267,487,308"/>
+<area shape="rect" id="node7" href="$classbackend_1_1models_1_1postgis_1_1release__version_1_1ReleaseVersion.html#ab66c5af5d3152d6169238e5fb3a01516" title=" " alt="" coords="265,332,475,373"/>
+<area shape="rect" id="node8" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#af93d657b195e248d8f3913f1d3496817" title=" " alt="" coords="272,397,468,439"/>
+<area shape="rect" id="node9" href="$classbackend_1_1models_1_1postgis_1_1task__annotation_1_1TaskAnnotation.html#ac5b6b83954e5d468b4b5f4105c4a0d8b" title=" " alt="" coords="257,463,483,504"/>
+<area shape="rect" id="node10" href="$classbackend_1_1models_1_1postgis_1_1team_1_1TeamMembers.html#a8d249b5923286cc063a9303c358f5ebe" title=" " alt="" coords="270,528,470,569"/>
+<area shape="rect" id="node11" href="$classbackend_1_1models_1_1postgis_1_1campaign_1_1Campaign.html#aca7eb884894a0dc7680ccc4d3f182736" title=" " alt="" coords="257,593,483,635"/>
+<area shape="rect" id="node12" href="$classbackend_1_1models_1_1postgis_1_1interests_1_1Interest.html#a1454d4eed6d1b03e875bbb8cb4e0d7ce" title=" " alt="" coords="259,659,481,700"/>
+<area shape="rect" id="node13" href="$classbackend_1_1models_1_1postgis_1_1organisation_1_1Organisation.html#ad63290164dd0669a1b3e37d57dcb66f3" title=" " alt="" coords="249,724,491,765"/>
+<area shape="rect" id="node14" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a54762359a0176c391838ead36d9543d4" title=" " alt="" coords="265,789,475,831"/>
+<area shape="rect" id="node30" href="$classbackend_1_1models_1_1postgis_1_1team_1_1Team.html#a05175b98ded30e543499478728bc9be2" title=" " alt="" coords="270,859,470,900"/>
+<area shape="rect" id="node33" href="$classbackend_1_1models_1_1postgis_1_1user_1_1User.html#af0d1a5da5fe76a98b22e3de0816f504f" title=" " alt="" coords="273,924,467,965"/>
+<area shape="rect" id="node15" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a860d7834d84f609885418f9b91187fbc" title=" " alt="" coords="539,721,749,763"/>
+<area shape="rect" id="node16" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a5a5c2ef533567a6499c0c84dd2a42886" title=" " alt="" coords="539,787,749,828"/>
+<area shape="rect" id="node17" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a0f12419c74068827726fc7b1e6a4c248" title=" " alt="" coords="813,395,1023,436"/>
+<area shape="rect" id="node18" href="$classbackend_1_1models_1_1postgis_1_1application_1_1Application.html#ab7a490ec4f2967dfe77d634ad73c382b" title=" " alt="" coords="801,460,1035,501"/>
+<area shape="rect" id="node19" href="$classbackend_1_1models_1_1postgis_1_1campaign_1_1Campaign.html#ade52f0f8ab25e91af6d67524daf9ede6" title=" " alt="" coords="805,525,1031,567"/>
+<area shape="rect" id="node20" href="$classbackend_1_1models_1_1postgis_1_1custom__editors_1_1CustomEditor.html#a4603741ca6fc21f7426c5d39db52d1d8" title=" " alt="" coords="813,591,1023,632"/>
+<area shape="rect" id="node21" href="$classbackend_1_1models_1_1postgis_1_1interests_1_1Interest.html#a5c3df5ea0adf98a66ac6ba05410b4623" title=" " alt="" coords="807,656,1029,697"/>
+<area shape="rect" id="node22" href="$classbackend_1_1models_1_1postgis_1_1message_1_1Message.html#aac80d796cfb146e49f1f2fef69414458" title=" " alt="" coords="806,721,1030,763"/>
+<area shape="rect" id="node23" href="$classbackend_1_1models_1_1postgis_1_1notification_1_1Notification.html#a43309aeb9804215529d7fd2a0db8a492" title=" " alt="" coords="801,787,1035,828"/>
+<area shape="rect" id="node24" href="$classbackend_1_1models_1_1postgis_1_1organisation_1_1Organisation.html#a5b7c4a0b4f60ef80d6a14ec48d685929" title=" " alt="" coords="797,852,1039,893"/>
+<area shape="rect" id="node25" href="$classbackend_1_1models_1_1postgis_1_1project_1_1ProjectTeams.html#ac05937b8c79cf9d509c0fcdb958c53f7" title=" " alt="" coords="813,917,1023,959"/>
+<area shape="rect" id="node26" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a490a0a3668f7dc2f70b13b2a25ded7cc" title=" " alt="" coords="813,983,1023,1024"/>
+<area shape="rect" id="node27" href="$classbackend_1_1models_1_1postgis_1_1release__version_1_1ReleaseVersion.html#a28979de3374cf29b5205b039799e0d52" title=" " alt="" coords="813,1048,1023,1089"/>
+<area shape="rect" id="node28" href="$classbackend_1_1models_1_1postgis_1_1user_1_1User.html#a3eb56b2c90b913096029f5d414cffcaf" title=" " alt="" coords="821,1113,1015,1155"/>
+<area shape="rect" id="node29" href="$classbackend_1_1models_1_1postgis_1_1user_1_1UserEmail.html#a50616abc698eed499795565fcaf7c61d" title=" " alt="" coords="821,1179,1015,1220"/>
+<area shape="rect" id="node31" href="$classbackend_1_1services_1_1team__service_1_1TeamService.html#ab42f6d9ac3e544e64de02b0eb78ceea6" title=" " alt="" coords="565,853,723,909"/>
+<area shape="rect" id="node32" href="$classbackend_1_1models_1_1postgis_1_1team_1_1Team.html#abc64d687117f9c1f5c6321d7fb2cb337" title=" " alt="" coords="544,933,744,975"/>
+</map>

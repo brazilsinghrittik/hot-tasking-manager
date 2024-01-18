@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['license_0',['License',['../classbackend_1_1models_1_1postgis_1_1licenses_1_1License.html',1,'backend::models::postgis::licenses']]],
+  ['licensedto_1',['LicenseDTO',['../classbackend_1_1models_1_1dtos_1_1licenses__dto_1_1LicenseDTO.html',1,'backend::models::dtos::licenses_dto']]],
+  ['licenselistdto_2',['LicenseListDTO',['../classbackend_1_1models_1_1dtos_1_1licenses__dto_1_1LicenseListDTO.html',1,'backend::models::dtos::licenses_dto']]],
+  ['licensesactionsacceptapi_3',['LicensesActionsAcceptAPI',['../classbackend_1_1api_1_1licenses_1_1actions_1_1LicensesActionsAcceptAPI.html',1,'backend::api::licenses::actions']]],
+  ['licensesallapi_4',['LicensesAllAPI',['../classbackend_1_1api_1_1licenses_1_1resources_1_1LicensesAllAPI.html',1,'backend::api::licenses::resources']]],
+  ['licenseservice_5',['LicenseService',['../classbackend_1_1services_1_1license__service_1_1LicenseService.html',1,'backend::services::license_service']]],
+  ['licensesrestapi_6',['LicensesRestAPI',['../classbackend_1_1api_1_1licenses_1_1resources_1_1LicensesRestAPI.html',1,'backend::api::licenses::resources']]],
+  ['listeduser_7',['ListedUser',['../classbackend_1_1models_1_1dtos_1_1user__dto_1_1ListedUser.html',1,'backend::models::dtos::user_dto']]],
+  ['listorganisationsdto_8',['ListOrganisationsDTO',['../classbackend_1_1models_1_1dtos_1_1organisation__dto_1_1ListOrganisationsDTO.html',1,'backend::models::dtos::organisation_dto']]],
+  ['listsearchresultdto_9',['ListSearchResultDTO',['../classbackend_1_1models_1_1dtos_1_1project__dto_1_1ListSearchResultDTO.html',1,'backend::models::dtos::project_dto']]],
+  ['lock_5ftask_5ffor_5fmapping_10',['lock_task_for_mapping',['../classbackend_1_1services_1_1mapping__service_1_1MappingService.html#accd44773e351fca7ea61ea499612e315',1,'backend::services::mapping_service::MappingService']]],
+  ['lock_5ftasks_5ffor_5fvalidation_11',['lock_tasks_for_validation',['../classbackend_1_1services_1_1validator__service_1_1ValidatorService.html#a2670a6025f624bb7212edf06affa5cc7',1,'backend::services::validator_service::ValidatorService']]],
+  ['lockedtasksforuser_12',['LockedTasksForUser',['../classbackend_1_1models_1_1dtos_1_1project__dto_1_1LockedTasksForUser.html',1,'backend::models::dtos::project_dto']]],
+  ['lockforvalidationdto_13',['LockForValidationDTO',['../classbackend_1_1models_1_1dtos_1_1validator__dto_1_1LockForValidationDTO.html',1,'backend::models::dtos::validator_dto']]],
+  ['locktaskdto_14',['LockTaskDTO',['../classbackend_1_1models_1_1dtos_1_1mapping__dto_1_1LockTaskDTO.html',1,'backend::models::dtos::mapping_dto']]],
+  ['login_5fuser_15',['login_user',['../classbackend_1_1services_1_1users_1_1authentication__service_1_1AuthenticationService.html#a382a9b00ef320dd67dc8d68225ede181',1,'backend::services::users::authentication_service::AuthenticationService']]]
+];
