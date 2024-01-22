@@ -302,6 +302,46 @@
   
   
     <li class="md-nav__item">
+      <a href="../../developers/contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/code_of_conduct/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code Of Conduct
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../developers/contributing-guidelines/" class="md-nav__link">
         
   
@@ -327,26 +367,6 @@
   
   <span class="md-ellipsis">
     Development Setup
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../developers/versions-and-releases/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Versions and Releases
   </span>
   
 
@@ -402,6 +422,129 @@
   
   
     <li class="md-nav__item">
+      <a href="../../developers/translations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Translations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/versions-and-releases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Versions and Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/error_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Error Codes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Deep Tech Dives
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Deep Tech Dives
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dataflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Flow Diagrams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../developers/tmschema/" class="md-nav__link">
         
   
@@ -422,11 +565,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../developers/translations/" class="md-nav__link">
+      <a href="../../apidocs/html/index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Translations
+    Class Hierarchy
   </span>
   
 
@@ -460,10 +603,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -474,8 +617,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             For Sysadmins
           </label>
@@ -663,11 +806,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../apidocs/html/" class="md-nav__link">
+      <a href="../../working-groups/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Class Hierarchy
+    Working Groups
   </span>
   
 
@@ -750,49 +893,92 @@
 
 <h1 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h1>
 <p><img alt="TM Architecture" src="../../images/tm-architecture.svg" /></p>
-<p>Reference for the <a href="../scripts/aws/cloudformation/tasking-manager.template.js">Cloudformation script</a>:</p>
-<p><strong>TaskingManagerASG</strong> AutoScalingGroup configures the properties of the Autoscaling Group. There is a condition that determines three levels of autoscaling: development (1 instance only), demo (max 3 instances), and production (min 2 max 6 instances).</p>
-<p><strong>TaskingManagerScaleUp</strong> Scaling Policy determines the threshold at which the ASG scales up. We use the CloudWatch metric ALBRequestCountPerTarget to keep the number of requests per instance below a certain level.</p>
-<p><strong>TaskingManagerLaunchConfiguration</strong> has a number of metadata files and commands which are loaded and run during instantiation of a new server into the ASG. The Tasking Manager environment variables are set in this resource.</p>
-<p><strong>TaskingManagerEC2Role</strong> IAM role enables the backend servers to communicate with CodeDeploy, CloudWatch monitoring, Cloudformation, and the RDS Database.</p>
-<p><strong>TaskingManagerDatabaseDumpAccessRole</strong> is an EC2 IAM Role that is only used if a database dump file is given in the configuration, enabling access to the s3 bucket containing that file.</p>
-<p><strong>TaskingManagerEC2InstanceProfile</strong> is a required resource for giving a server programmatic access to AWS services.</p>
-<p><strong>TaskingManagerLoadBalancer</strong> configures the security groups and subnets for the Application Load Balancer AWS resource.</p>
-<p><strong>TaskingManagerLoadBalancerRoute53</strong> record set for the load balancer.</p>
-<p><strong>TaskingManagerTargetGroup</strong> configures health checks for each target in the Load Balancer.</p>
-<p><strong>TaskingManagerLoadBalancerHTTPSListener</strong> assigns the SSL Certificate, protocol, and port to the HTTPS Listener.</p>
-<p><strong>TaskingManagerLoadBalancerHTTPListener</strong> redirects requests to HTTPS.</p>
-<p><strong>TaskingManagerRDS</strong> configures all the properties of the database RDS.</p>
-<p><strong>TaskingManagerReactBucket</strong> is the bucket where the frontend code is stored and served.</p>
-<p><strong>TaskingManagerReactBucketPolicy</strong> gives read access to the objects stored in the bucket.</p>
-<p><strong>TaskingManagerReactCloudfront</strong> configures the CloudFront Distribution for the static frontend stored on S3.</p>
-<p><strong>TaskingManagerRoute53</strong> is the Route53 Record for the frontend, i.e. <code>tasks.hotosm.org</code></p>
+<p>Reference for the <a href="https://github.com/hotosm/tasking-manager/blob/develop/scripts/aws/cloudformation/tasking-manager.template.js">Cloudformation script</a>:</p>
+<p><strong>TaskingManagerASG</strong> AutoScalingGroup configures the properties of
+the Autoscaling Group. There is a condition that determines three
+levels of autoscaling: development (1 instance only), demo (max 3
+instances), and production (min 2 max 6 instances).</p>
+<p><strong>TaskingManagerScaleUp</strong> Scaling Policy determines the threshold at
+which the ASG scales up. We use the CloudWatch metric
+ALBRequestCountPerTarget to keep the number of requests per instance
+below a certain level.</p>
+<p><strong>TaskingManagerLaunchConfiguration</strong> has a number of metadata files
+and commands which are loaded and run during instantiation of a new
+server into the ASG. The Tasking Manager environment variables are set
+in this resource.</p>
+<p><strong>TaskingManagerEC2Role</strong> IAM role enables the backend servers to
+communicate with CodeDeploy, CloudWatch monitoring, Cloudformation,
+and the RDS Database.</p>
+<p><strong>TaskingManagerDatabaseDumpAccessRole</strong> is an EC2 IAM Role that is
+only used if a database dump file is given in the configuration,
+enabling access to the s3 bucket containing that file.</p>
+<p><strong>TaskingManagerEC2InstanceProfile</strong> is a required resource for giving
+a server programmatic access to AWS services.</p>
+<p><strong>TaskingManagerLoadBalancer</strong> configures the security groups and
+subnets for the Application Load Balancer AWS resource.</p>
+<p><strong>TaskingManagerLoadBalancerRoute53</strong> record set for the load
+balancer.</p>
+<p><strong>TaskingManagerTargetGroup</strong> configures health checks for each target
+in the Load Balancer.</p>
+<p><strong>TaskingManagerLoadBalancerHTTPSListener</strong> assigns the SSL
+Certificate, protocol, and port to the HTTPS Listener.</p>
+<p><strong>TaskingManagerLoadBalancerHTTPListener</strong> redirects requests to
+HTTPS.</p>
+<p><strong>TaskingManagerRDS</strong> configures all the properties of the database
+RDS.</p>
+<p><strong>TaskingManagerReactBucket</strong> is the bucket where the frontend code is
+stored and served.</p>
+<p><strong>TaskingManagerReactBucketPolicy</strong> gives read access to the objects
+stored in the bucket.</p>
+<p><strong>TaskingManagerReactCloudfront</strong> configures the CloudFront
+Distribution for the static frontend stored on S3.</p>
+<p><strong>TaskingManagerRoute53</strong> is the Route53 Record for the frontend,
+i.e. <code>tasks.hotosm.org</code></p>
 <h3 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h3>
-<p><strong>GitSha</strong> is the commit hash from the HOTOSM Tasking Manager repository to be deployed</p>
-<p><strong>NetworkEnvironment</strong> has only two options- <code>staging</code> and <code>production</code>, and determines the security groups used for the EC2s and Load Balancer.</p>
-<p><strong>AutoscalingPolicy</strong> can be <code>development</code>, <code>demo</code>, or <code>production</code> and determines the min/max number of instances</p>
-<p><strong>DBSnapshot</strong> is an optional parameter. Specify the RDS Snapshot ID to create the database from a snapshot</p>
-<p><strong>DatabaseDump</strong> is an optional parameter. Specify the s3 bucket object path to create the database from a plaintext dump file.</p>
+<p><strong>GitSha</strong> is the commit hash from the HOTOSM Tasking Manager
+repository to be deployed.</p>
+<p><strong>NetworkEnvironment</strong> has only two options- <code>staging</code> and
+<code>production</code>, and determines the security groups used for the EC2s and
+Load Balancer.</p>
+<p><strong>AutoscalingPolicy</strong> can be <code>development</code>, <code>demo</code>, or <code>production</code>
+and determines the min/max number of instances.</p>
+<p><strong>DBSnapshot</strong> is an optional parameter. Specify the RDS Snapshot ID
+to create the database from a snapshot.</p>
+<p><strong>DatabaseDump</strong> is an optional parameter. Specify the s3 bucket
+object path to create the database from a plaintext dump file.</p>
 <p><strong>NewRelicLicense</strong></p>
 <p><strong>PostgresDB</strong> is the name of the database</p>
 <p><strong>PostgresPassword</strong> is the database password</p>
 <p><strong>PostgresUser</strong> is the database user</p>
 <p><strong>DatabaseEngineVersion</strong> AWS PostgreSQL Engine version</p>
-<p><strong>DatabaseInstanceType</strong> is the AWS database instance tier (eg db.t3.large)</p>
-<p><strong>DatabaseDiskSize</strong> is the size (in GB) of the RDS instance. Recommended at least 100GB for better IOPS</p>
-<p><strong>DatabaseParameterGroupName</strong> use the default parameter group if you don't know what this is</p>
-<p><strong>DatabaseSnapshotRetentionPeriod</strong> Retention period for automatic (scheduled) snapshots in days</p>
-<p><strong>ELBSubnets</strong> is a comma-separated string of subnets for your AWS region. Make sure the subnets support the EC2 instance type.</p>
+<p><strong>DatabaseInstanceType</strong> is the AWS database instance tier (eg
+db.t3.large)</p>
+<p><strong>DatabaseDiskSize</strong> is the size (in GB) of the RDS
+instance. Recommended at least 100GB for better IOPS</p>
+<p><strong>DatabaseParameterGroupName</strong> use the default parameter group if you
+don't know what this is.</p>
+<p><strong>DatabaseSnapshotRetentionPeriod</strong> Retention period for automatic
+(scheduled) snapshots in days.</p>
+<p><strong>ELBSubnets</strong> is a comma-separated string of subnets for your AWS
+region. Make sure the subnets support the EC2 instance type.</p>
 <p><strong>SSLCertificateIdentifier</strong> the ID for the AWS SSL Certificate</p>
-<p><strong>TaskingManagerLogDirectory</strong> the path on the instance where the logs are stored on the server, e.g. <code>/var/log/tasking-manager/</code></p>
-<p><strong>TaskingManagerClientId</strong> is a key generated by creating and OSM OAuth Client Application.</p>
-<p><strong>TaskingManagerClientSecret</strong> is a secret key generated by creating and OSM OAuth Client Application.</p>
-<p><strong>TaskingManagerRedirectUri</strong> allowed URIs to which the user can be redirected after authorizing the application.</p>
+<p><strong>TaskingManagerLogDirectory</strong> the path on the instance where the logs
+are stored on the server, e.g. <code>/var/log/tasking-manager/</code></p>
+<p><strong>TaskingManagerClientId</strong> is a key generated by creating and OSM
+OAuth Client Application.</p>
+<p><strong>TaskingManagerClientSecret</strong> is a secret key generated by creating
+and OSM OAuth Client Application.</p>
+<p><strong>TaskingManagerRedirectUri</strong> allowed URIs to which the user can be
+redirected after authorizing the application.</p>
 <p><strong>TaskingManagerScope</strong> are scope(s) which may be requested by a client.</p>
-<p><strong>TaskingManagerSecret</strong> a random string for the frontend and backend to communicate.</p>
-<p><strong>TaskingManagerAppBaseUrl</strong> the full base url of the site, e.g. <code>https://tasks.hotosm.org/</code></p>
-<p><strong>TaskingManagerEmailFromAddress</strong> an email address from which messages will be sent to users.</p>
-<p><strong>TaskingManagerEmailContactAddress</strong> a contact address which will show up in places around the site</p>
+<p><strong>TaskingManagerSecret</strong> a random string for the frontend and backend
+to communicate.</p>
+<p><strong>TaskingManagerAppBaseUrl</strong> the full base url of the site,
+e.g. <code>https://tasks.hotosm.org/</code>.</p>
+<p><strong>TaskingManagerEmailFromAddress</strong> an email address from which
+messages will be sent to users.</p>
+<p><strong>TaskingManagerEmailContactAddress</strong> a contact address which will
+show up in places around the site</p>
 <p><strong>TaskingManagerLogLevel</strong> can be either <code>DEBUG</code> or <code>INFO</code></p>
 <p><strong>TaskingManagerImageUploadAPIURL</strong></p>
 <p><strong>TaskingManagerImageUploadAPIKey</strong></p>
