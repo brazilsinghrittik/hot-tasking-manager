@@ -1,0 +1,13 @@
+<map id="backend.models.postgis.project.Project.calculate_tasks_percent" name="backend.models.postgis.project.Project.calculate_tasks_percent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="580,109,811,154"/>
+<area shape="rect" id="Node000002" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a9a8b375db8bcd9c7c5454223a0ed80e8" title=" " alt="" coords="285,40,532,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="585,108,503,88,504,83,587,103"/>
+<area shape="rect" id="Node000005" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#acdbf47f66f7a34cc056d60f6959ec1ed" title=" " alt="" coords="293,109,524,154"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="565,134,525,134,525,129,565,129"/>
+<area shape="rect" id="Node000006" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a24642d4e88f74c2199c06e4d7b4fc228" title=" " alt="" coords="293,179,524,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="587,161,504,181,503,175,585,155"/>
+<area shape="rect" id="Node000003" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#ad3ac69797e2fb87c58fd553434076d12" title=" " alt="" coords="5,5,237,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="270,48,237,44,237,39,270,43"/>
+<area shape="rect" id="Node000004" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a67beaf07e62ffb60cf21a84d87fe8a00" title=" " alt="" coords="5,75,237,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,82,237,86,237,80,270,76"/>
+</map>

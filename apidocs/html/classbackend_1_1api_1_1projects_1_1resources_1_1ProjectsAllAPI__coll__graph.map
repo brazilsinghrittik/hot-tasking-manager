@@ -1,0 +1,7 @@
+<map id="backend.api.projects.resources.ProjectsAllAPI" name="backend.api.projects.resources.ProjectsAllAPI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,257,223,344"/>
+<area shape="rect" id="Node000002" href="$classbackend_1_1api_1_1projects_1_1resources_1_1ProjectSearchBase.html" title=" " alt="" coords="5,123,223,209"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,224,117,257,111,257,111,224"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="77,5,151,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,89,117,123,111,123,111,89"/>
+</map>

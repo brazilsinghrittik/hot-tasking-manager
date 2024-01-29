@@ -1,0 +1,9 @@
+<map id="backend.models.postgis.project.Project.as_dto_for_mapping" name="backend.models.postgis.project.Project.as_dto_for_mapping">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,237,85"/>
+<area shape="rect" id="Node000002" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a9a8b375db8bcd9c7c5454223a0ed80e8" title=" " alt="" coords="285,40,532,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,60,270,60,270,65,237,65"/>
+<area shape="rect" id="Node000003" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#ad433c3dad2d2183c349f720a23f76857" title=" " alt="" coords="599,5,830,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="532,46,584,40,584,45,533,51"/>
+<area shape="rect" id="Node000004" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#ac8a94ea109ddb7d3b80e7469eaccc4d3" title=" " alt="" coords="580,75,848,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="533,74,565,77,565,83,532,79"/>
+</map>

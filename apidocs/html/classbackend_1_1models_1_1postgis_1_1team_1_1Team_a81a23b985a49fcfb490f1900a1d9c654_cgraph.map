@@ -1,0 +1,7 @@
+<map id="backend.models.postgis.team.Team.as_dto_inside_org" name="backend.models.postgis.team.Team.as_dto_inside_org">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,53,226,97"/>
+<area shape="rect" id="Node000002" href="$classbackend_1_1services_1_1team__service_1_1TeamService.html#a06f04fdc6f1d183862261f27f571b244" title=" " alt="" coords="298,5,470,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,56,283,48,284,53,226,62"/>
+<area shape="rect" id="Node000003" href="$classbackend_1_1models_1_1postgis_1_1team_1_1Team.html#ac22fa8f2fa35203b11576a337915e322" title=" " alt="" coords="274,91,494,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,88,259,93,259,98,226,93"/>
+</map>

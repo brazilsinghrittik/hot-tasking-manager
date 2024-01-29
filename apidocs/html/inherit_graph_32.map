@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,109,125,137"/>
+<area shape="rect" id="Node000001" href="$classbackend_1_1exceptions_1_1BaseException.html" title=" " alt="" coords="173,109,423,137"/>
+<area shape="poly" id="edge84_Node000000_Node000001" title=" " alt="" coords="139,121,172,121,172,126,139,126"/>
+<area shape="rect" id="Node000002" href="$classbackend_1_1exceptions_1_1BadRequest.html" title=" " alt="" coords="476,5,708,33"/>
+<area shape="poly" id="edge85_Node000001_Node000002" title=" " alt="" coords="338,100,399,71,470,43,514,31,515,36,472,48,402,76,340,105"/>
+<area shape="rect" id="Node000003" href="$classbackend_1_1exceptions_1_1Conflict.html" title=" " alt="" coords="490,57,693,85"/>
+<area shape="poly" id="edge86_Node000001_Node000003" title=" " alt="" coords="394,104,509,83,510,88,395,109"/>
+<area shape="rect" id="Node000004" href="$classbackend_1_1exceptions_1_1Forbidden.html" title=" " alt="" coords="483,109,701,137"/>
+<area shape="poly" id="edge87_Node000001_Node000004" title=" " alt="" coords="438,121,482,121,482,126,438,126"/>
+<area shape="rect" id="Node000005" href="$classbackend_1_1exceptions_1_1NotFound.html" title=" " alt="" coords="484,161,700,189"/>
+<area shape="poly" id="edge88_Node000001_Node000005" title=" " alt="" coords="395,138,510,158,509,163,394,143"/>
+<area shape="rect" id="Node000006" href="$classbackend_1_1exceptions_1_1Unauthorized.html" title=" " alt="" coords="471,213,712,241"/>
+<area shape="poly" id="edge89_Node000001_Node000006" title=" " alt="" coords="340,142,402,170,472,198,515,210,514,215,470,203,399,175,338,146"/>
+</map>

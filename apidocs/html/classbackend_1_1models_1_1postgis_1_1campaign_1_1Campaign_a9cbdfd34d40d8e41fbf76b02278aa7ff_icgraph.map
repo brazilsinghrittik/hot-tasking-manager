@@ -1,0 +1,29 @@
+<map id="backend.models.postgis.campaign.Campaign.save" name="backend.models.postgis.campaign.Campaign.save">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1161,204,1411,249"/>
+<area shape="rect" id="Node000002" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#ac0fe2f81223aed3d02a74594ca9a43ef" title=" " alt="" coords="854,135,1085,179"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1166,203,1074,183,1075,177,1167,198"/>
+<area shape="rect" id="Node000010" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a834b045e2c80bbb5987ffcbc4261bcc9" title=" " alt="" coords="826,204,1113,249"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="1146,229,1113,229,1113,224,1146,224"/>
+<area shape="rect" id="Node000011" href="$classbackend_1_1models_1_1postgis_1_1custom__editors_1_1CustomEditor.html#aa261f7cb8882fb849c9e7283a9786915" title=" " alt="" coords="840,273,1099,318"/>
+<area shape="poly" id="edge16_Node000001_Node000011" title=" " alt="" coords="1167,255,1075,275,1074,270,1166,250"/>
+<area shape="rect" id="Node000003" href="$classbackend_1_1models_1_1postgis_1_1project_1_1Project.html#a5cbb2dabb99e15d8eee461b6bcdb19c3" title=" " alt="" coords="547,135,778,179"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="839,160,779,160,779,154,839,154"/>
+<area shape="rect" id="Node000004" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#a9e933ab6a772ac089069d5947b00683f" title=" " alt="" coords="285,88,499,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="532,137,499,131,500,126,533,132"/>
+<area shape="rect" id="Node000006" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#ab4c84b3291ada6b7514a9ed543e4ebf2" title=" " alt="" coords="14,29,228,74"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="613,129,559,101,498,78,429,64,359,55,228,50,229,45,359,50,430,58,500,73,561,96,615,125"/>
+<area shape="rect" id="Node000008" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#aed9cb9967d8617ec47a76c2e9c336938" title=" " alt="" coords="285,181,499,226"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="533,182,500,188,499,183,532,177"/>
+<area shape="rect" id="Node000009" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#a2c75eb2b18a54a497a700c77cc4b89ee" title=" " alt="" coords="14,239,228,283"/>
+<area shape="poly" id="edge14_Node000003_Node000009" title=" " alt="" coords="615,190,561,218,500,241,430,255,359,264,229,269,228,263,359,259,429,250,498,236,559,213,613,185"/>
+<area shape="rect" id="Node000005" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#accfa26b6c51de5cd75af46f0829ed8ea" title=" " alt="" coords="5,99,237,143"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="270,118,237,119,237,114,270,112"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="271,87,227,77,228,72,272,82"/>
+<area shape="rect" id="Node000007" href="$classbackend_1_1models_1_1postgis_1_1task_1_1Task.html#a9c166c8ae6b5c866d8e7de4a899a0db0" title=" " alt="" coords="14,168,228,213"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="301,140,200,170,198,165,299,135"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="166,17,150,10,121,8,96,10,80,15,73,21,75,28,70,29,68,19,77,10,95,5,121,3,151,5,168,12"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="326,176,283,147,268,131,259,116,250,102,235,89,214,77,216,72,238,84,254,99,264,113,272,128,286,143,329,172"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="270,200,228,198,229,193,270,195"/>
+<area shape="poly" id="edge12_Node000008_Node000008" title=" " alt="" coords="437,169,420,162,392,160,366,162,350,167,344,173,346,180,341,181,339,171,348,162,365,157,392,155,422,157,439,164"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="270,232,229,241,228,236,269,227"/>
+</map>
